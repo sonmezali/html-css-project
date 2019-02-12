@@ -1,7 +1,7 @@
 .container {
   position: relative;
   margin: 0 auto;
-  max-width: 450px;
+  max-width: 600px;
   border: 5px solid;
   
 
@@ -24,9 +24,47 @@ article {
   background-color: #5f9ea0;
 }
 .main {
+  max-width:80%;
   
 }
 
 #second_article p:first-child{
   font-weight: bold;
+}
+footer{
+  width: 100%;
+  background-color: aqua;
+ padding: 10px 0px;
+  text-align:center;
+  
+}
+nav{
+  float:right;
+  display: flex;
+  min-width:20%;
+  background-color: #6495ed;
+  margin:10px 5px;
+  border:1px solid;
+
+}
+nav::after{
+  content: "";
+  clear:both;
+  display: table;
+
+}
+a{
+  text-decoration: none;
+  color:black;
+
+}
+a:hover{
+  color:red;
+}
+ul{
+ 
+  list-style-type: none;
+}
+li{
+  padding:2px;
 }
